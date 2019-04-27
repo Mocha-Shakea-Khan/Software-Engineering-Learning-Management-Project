@@ -1,0 +1,10 @@
+SELECT * FROM Students;
+
+INSERT INTO Students(ID,F_Name, L_Name, Password, Courses, Grades, GPA)
+              VALUES(1234, 'Cristian', 'Patino', '123abc','CS IoT', 'A', 3);
+
+UPDATE Students
+SET GPA = 1 
+WHERE ID = 1234
+
+DELETE FROM Students WHERE ID = 1234;
